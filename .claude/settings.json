@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude plugin *)",
+      "Bash(git clone *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Read(//tmp/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\gasto\\.claude\\plugins"
+    ]
+  }
+}
